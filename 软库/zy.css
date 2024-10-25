@@ -84,7 +84,7 @@ body::before {
     overflow-wrap: break-word; /* 超出长度自动换行 */
     font-size: 18px; /* 设置文字大小为 18px，确保清晰可读 */
     font-weight: 600; /* 字体加粗，使文字更加醒目 */
-    color: #eae9e9; /* 字体颜色设为白色 */
+    color:rgba(255, 255, 0, 0.7); /* 字体颜色设为白色 */
     text-align: center; /* 文字水平居中对齐 */
     text-shadow: 0 10 20px rgba(255, 255, 255, 0.8); /* 设置文字的发光效果，增加可读性 */
 }
