@@ -48,9 +48,9 @@ function loadSoftwareList() {
 
         // 根据页码变化应用不同的动画效果
         if (currentPage > previousPage) {
-            container.classList.add('slide-in-right'); // 向右滑动动画
+            container.classList.add('slide-in-left'); // 向右滑动动画
         } else if (currentPage < previousPage) {
-            container.classList.add('slide-in-left'); // 向左滑动动画
+            container.classList.add('slide-in-right'); // 向左滑动动画
         } else {
             container.classList.add('fade-in-out'); // 渐入渐出效果
         }
