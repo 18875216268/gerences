@@ -58,7 +58,7 @@ function loadSoftwareList() {
 
         // 动画完成后，移除动画类
         container.addEventListener('animationend', () => {
-            container.classList.remove('slide-in-left', 'slide-in-right', 'fade-in-out');
+            container.classList.remove('slide-in-right', 'slide-in-left', 'fade-in-out');
         });
 
         // 为当前页的软件生成软件块并添加到容器中
