@@ -90,7 +90,6 @@ body::before {
 }
 
 .文字class:hover {
-    text-shadow: translateY(-10px); /* 悬浮时块上移 10px，增加交互效果 */
     text-shadow: 0 24px 30px rgba(255, 223, 0, 0.9); /* 增强悬浮时的文字发光效果 */
 }
 
